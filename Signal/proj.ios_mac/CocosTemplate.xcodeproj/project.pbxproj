@@ -53,7 +53,7 @@
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
 		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
-		E118C4B11C9C888E007578EF /* TiltleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E118C4AF1C9C888E007578EF /* TiltleScene.cpp */; };
+		E118C4B11C9C888E007578EF /* TitleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E118C4AF1C9C888E007578EF /* TitleScene.cpp */; };
 		E118C4B41C9C889E007578EF /* MenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E118C4B21C9C889E007578EF /* MenuScene.cpp */; };
 		E118C4B71C9C88B0007578EF /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E118C4B51C9C88B0007578EF /* GameScene.cpp */; };
 		E16B9CC81C8AAA1600819364 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E16B9CC61C8AAA1600819364 /* AppDelegate.cpp */; };
@@ -71,6 +71,19 @@
 		E16B9CEA1C8B5C2100819364 /* iPhone5.png in Resources */ = {isa = PBXBuildFile; fileRef = E16B9CE91C8B5C2100819364 /* iPhone5.png */; };
 		E16B9CEC1C8B5CD800819364 /* GameBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E16B9CEB1C8B5CD800819364 /* GameBg.png */; };
 		E16B9CEF1C9462EC00819364 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = E16B9CEE1C9462EC00819364 /* button.png */; };
+		E1A7280D1C9D2D6C00670C9E /* comboPlate.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A727FF1C9D2D6C00670C9E /* comboPlate.png */; };
+		E1A7280F1C9D2D6C00670C9E /* Item in Resources */ = {isa = PBXBuildFile; fileRef = E1A728011C9D2D6C00670C9E /* Item */; };
+		E1A728101C9D2D6C00670C9E /* PauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A728021C9D2D6C00670C9E /* PauseButton.png */; };
+		E1A728111C9D2D6C00670C9E /* ready.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A728031C9D2D6C00670C9E /* ready.png */; };
+		E1A728121C9D2D6C00670C9E /* ResultBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A728041C9D2D6C00670C9E /* ResultBg.png */; };
+		E1A728131C9D2D6C00670C9E /* smog.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A728051C9D2D6C00670C9E /* smog.png */; };
+		E1A728141C9D2D6C00670C9E /* smog2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A728061C9D2D6C00670C9E /* smog2.png */; };
+		E1A728151C9D2D6C00670C9E /* StartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A728071C9D2D6C00670C9E /* StartButton.png */; };
+		E1A728161C9D2D6C00670C9E /* titleArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A728081C9D2D6C00670C9E /* titleArrow.png */; };
+		E1A728171C9D2D6C00670C9E /* TitleBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A728091C9D2D6C00670C9E /* TitleBg.png */; };
+		E1A728181C9D2D6C00670C9E /* titleTouchLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A7280A1C9D2D6C00670C9E /* titleTouchLogo.png */; };
+		E1A728191C9D2D6C00670C9E /* UI in Resources */ = {isa = PBXBuildFile; fileRef = E1A7280B1C9D2D6C00670C9E /* UI */; };
+		E1A7281A1C9D2D6C00670C9E /* UP.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A7280C1C9D2D6C00670C9E /* UP.png */; };
 		E1EB8AA21C99582F004B412B /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1EB8AA01C99582F004B412B /* Button.cpp */; };
 		E1EB8AA61C997ADC004B412B /* ObjectCreateTestScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1EB8AA41C997ADC004B412B /* ObjectCreateTestScene.cpp */; };
 		ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7B1B68A1F400C3958E /* libiconv.dylib */; };
@@ -158,8 +171,8 @@
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D6B0611A1803AB670077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		E118C4AF1C9C888E007578EF /* TiltleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TiltleScene.cpp; path = Scene/TiltleScene.cpp; sourceTree = "<group>"; };
-		E118C4B01C9C888E007578EF /* TiltleScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TiltleScene.hpp; path = Scene/TiltleScene.hpp; sourceTree = "<group>"; };
+		E118C4AF1C9C888E007578EF /* TitleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TitleScene.cpp; path = Scene/TitleScene.cpp; sourceTree = "<group>"; };
+		E118C4B01C9C888E007578EF /* TitleScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TitleScene.hpp; path = Scene/TitleScene.hpp; sourceTree = "<group>"; };
 		E118C4B21C9C889E007578EF /* MenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MenuScene.cpp; path = Scene/MenuScene.cpp; sourceTree = "<group>"; };
 		E118C4B31C9C889E007578EF /* MenuScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MenuScene.hpp; path = Scene/MenuScene.hpp; sourceTree = "<group>"; };
 		E118C4B51C9C88B0007578EF /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = Scene/GameScene.cpp; sourceTree = "<group>"; };
@@ -188,6 +201,19 @@
 		E16B9CEB1C8B5CD800819364 /* GameBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBg.png; sourceTree = "<group>"; };
 		E16B9CEE1C9462EC00819364 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		E1A727FC1C9D188B00670C9E /* Collision.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Collision.hpp; sourceTree = "<group>"; };
+		E1A727FF1C9D2D6C00670C9E /* comboPlate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comboPlate.png; sourceTree = "<group>"; };
+		E1A728011C9D2D6C00670C9E /* Item */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Item; sourceTree = "<group>"; };
+		E1A728021C9D2D6C00670C9E /* PauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButton.png; sourceTree = "<group>"; };
+		E1A728031C9D2D6C00670C9E /* ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready.png; sourceTree = "<group>"; };
+		E1A728041C9D2D6C00670C9E /* ResultBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ResultBg.png; sourceTree = "<group>"; };
+		E1A728051C9D2D6C00670C9E /* smog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smog.png; sourceTree = "<group>"; };
+		E1A728061C9D2D6C00670C9E /* smog2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smog2.png; sourceTree = "<group>"; };
+		E1A728071C9D2D6C00670C9E /* StartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartButton.png; sourceTree = "<group>"; };
+		E1A728081C9D2D6C00670C9E /* titleArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleArrow.png; sourceTree = "<group>"; };
+		E1A728091C9D2D6C00670C9E /* TitleBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TitleBg.png; sourceTree = "<group>"; };
+		E1A7280A1C9D2D6C00670C9E /* titleTouchLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleTouchLogo.png; sourceTree = "<group>"; };
+		E1A7280B1C9D2D6C00670C9E /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UI; sourceTree = "<group>"; };
+		E1A7280C1C9D2D6C00670C9E /* UP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UP.png; sourceTree = "<group>"; };
 		E1EB8AA01C99582F004B412B /* Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Button.cpp; path = Obj/Button.cpp; sourceTree = "<group>"; };
 		E1EB8AA11C99582F004B412B /* Button.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Button.hpp; path = Obj/Button.hpp; sourceTree = "<group>"; };
 		E1EB8AA41C997ADC004B412B /* ObjectCreateTestScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ObjectCreateTestScene.cpp; path = Scene/ObjectCreateTestScene.cpp; sourceTree = "<group>"; };
@@ -315,6 +341,19 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E1A727FF1C9D2D6C00670C9E /* comboPlate.png */,
+				E1A728011C9D2D6C00670C9E /* Item */,
+				E1A728021C9D2D6C00670C9E /* PauseButton.png */,
+				E1A728031C9D2D6C00670C9E /* ready.png */,
+				E1A728041C9D2D6C00670C9E /* ResultBg.png */,
+				E1A728051C9D2D6C00670C9E /* smog.png */,
+				E1A728061C9D2D6C00670C9E /* smog2.png */,
+				E1A728071C9D2D6C00670C9E /* StartButton.png */,
+				E1A728081C9D2D6C00670C9E /* titleArrow.png */,
+				E1A728091C9D2D6C00670C9E /* TitleBg.png */,
+				E1A7280A1C9D2D6C00670C9E /* titleTouchLogo.png */,
+				E1A7280B1C9D2D6C00670C9E /* UI */,
+				E1A7280C1C9D2D6C00670C9E /* UP.png */,
 				E16B9CEE1C9462EC00819364 /* button.png */,
 				E16B9CEB1C8B5CD800819364 /* GameBg.png */,
 				E16B9CE91C8B5C2100819364 /* iPhone5.png */,
@@ -423,8 +462,8 @@
 				E16B9CD61C8AAA7A00819364 /* HelloWorldScene.hpp */,
 				E1EB8AA41C997ADC004B412B /* ObjectCreateTestScene.cpp */,
 				E1EB8AA51C997ADC004B412B /* ObjectCreateTestScene.hpp */,
-				E118C4AF1C9C888E007578EF /* TiltleScene.cpp */,
-				E118C4B01C9C888E007578EF /* TiltleScene.hpp */,
+				E118C4AF1C9C888E007578EF /* TitleScene.cpp */,
+				E118C4B01C9C888E007578EF /* TitleScene.hpp */,
 				E118C4B21C9C889E007578EF /* MenuScene.cpp */,
 				E118C4B31C9C889E007578EF /* MenuScene.hpp */,
 				E118C4B51C9C88B0007578EF /* GameScene.cpp */,
@@ -533,28 +572,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A728191C9D2D6C00670C9E /* UI in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
+				E1A7280F1C9D2D6C00670C9E /* Item in Resources */,
+				E1A728151C9D2D6C00670C9E /* StartButton.png in Resources */,
+				E1A728141C9D2D6C00670C9E /* smog2.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
+				E1A7280D1C9D2D6C00670C9E /* comboPlate.png in Resources */,
+				E1A728181C9D2D6C00670C9E /* titleTouchLogo.png in Resources */,
 				E16B9CEF1C9462EC00819364 /* button.png in Resources */,
+				E1A728121C9D2D6C00670C9E /* ResultBg.png in Resources */,
 				E16B9CDD1C8AD62400819364 /* CloseSelected.png in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
+				E1A7281A1C9D2D6C00670C9E /* UP.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
+				E1A728161C9D2D6C00670C9E /* titleArrow.png in Resources */,
 				E16B9CE11C8AD63300819364 /* fonts in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
+				E1A728111C9D2D6C00670C9E /* ready.png in Resources */,
+				E1A728131C9D2D6C00670C9E /* smog.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
+				E1A728171C9D2D6C00670C9E /* TitleBg.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
 				E16B9CEC1C8B5CD800819364 /* GameBg.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				E16B9CE81C8B4CD000819364 /* iPhone4s.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
+				E1A728101C9D2D6C00670C9E /* PauseButton.png in Resources */,
 				E16B9CDE1C8AD62400819364 /* HelloWorld.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 				E16B9CDC1C8AD62400819364 /* CloseNormal.png in Resources */,
@@ -588,7 +640,7 @@
 				E16B9CD41C8AAA6B00819364 /* GameObject.cpp in Sources */,
 				E1EB8AA21C99582F004B412B /* Button.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
-				E118C4B11C9C888E007578EF /* TiltleScene.cpp in Sources */,
+				E118C4B11C9C888E007578EF /* TitleScene.cpp in Sources */,
 				E16B9CD71C8AAA7A00819364 /* HelloWorldScene.cpp in Sources */,
 				E16B9CD01C8AAA5B00819364 /* SpriteMgr.cpp in Sources */,
 				E16B9CE51C8B236F00819364 /* Screen.cpp in Sources */,

@@ -1,7 +1,4 @@
-//
-//Å@ÉVÅ[ÉìÉ}ÉlÅ[ÉWÉÉÅ[
-//Å@Tips:FixMe cocos2d::LayeràÀë∂.
-//
+
 #pragma once
 
 #include<memory>

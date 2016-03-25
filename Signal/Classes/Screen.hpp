@@ -64,7 +64,7 @@ namespace Screen {
         
         const cocos2d::Vec2 ScreenSize(){return screenSize;}
         const cocos2d::Vec2 Maginification(){return magnification;}
-        
+        void FulScreenSprite(cocos2d::Sprite*);
 
     private:
         

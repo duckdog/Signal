@@ -23,7 +23,7 @@ bool HelloWorldScene::init()
     
     //背景テスト
     auto sprite = SpriteMgr::Get().Add
-    (spriteFilePath,Resource::SpriteKey::Test);
+    (spriteFilePath,Resource::SpriteKey::TitleBg);
     
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();

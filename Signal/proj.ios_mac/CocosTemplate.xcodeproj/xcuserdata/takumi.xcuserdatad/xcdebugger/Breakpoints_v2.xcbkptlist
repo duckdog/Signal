@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Screen.cpp"
-            timestampString = "479803370.112529"
+            timestampString = "480064057.604192"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "Screen::CheckDifferenceSize(cocos2d::Size originSize, cocos2d::Size setSize)"
             landmarkType = "5">
          </BreakpointContent>
@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/AppDelegate.cpp"
-            timestampString = "479829827.312093"
+            timestampString = "480063528.82917"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "AppDelegate::applicationDidFinishLaunching()"
             landmarkType = "5">
          </BreakpointContent>
@@ -202,27 +202,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/AppDelegate.cpp"
-            timestampString = "479829827.312093"
+            timestampString = "480063528.82917"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "AppDelegate::applicationDidFinishLaunching()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/AppDelegate.cpp"
+            timestampString = "480063528.82917"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
             endingLineNumber = "78"
-            landmarkName = "AppDelegate::applicationDidFinishLaunching()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Classes/AppDelegate.cpp"
-            timestampString = "479829827.312093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
             landmarkName = "AppDelegate::applicationDidFinishLaunching()"
             landmarkType = "5">
          </BreakpointContent>
@@ -298,11 +298,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Screen.cpp"
-            timestampString = "479803370.112529"
+            timestampString = "480064057.604192"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "Screen::CheckDifferenceSize(cocos2d::Size originSize, cocos2d::Size setSize)"
             landmarkType = "5">
          </BreakpointContent>
@@ -314,11 +314,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Screen.cpp"
-            timestampString = "479803370.112529"
+            timestampString = "480064057.604192"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "Screen::CheckDifferenceSize(cocos2d::Size originSize, cocos2d::Size setSize)"
             landmarkType = "5">
          </BreakpointContent>
@@ -330,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Screen.cpp"
-            timestampString = "479803370.112529"
+            timestampString = "480064057.604192"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "Screen::CheckDifferenceSize(cocos2d::Size originSize, cocos2d::Size setSize)"
             landmarkType = "5">
          </BreakpointContent>
@@ -346,11 +346,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Screen.cpp"
-            timestampString = "479803370.112529"
+            timestampString = "480064057.604192"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "Screen::CheckDifferenceSize(cocos2d::Size originSize, cocos2d::Size setSize)"
             landmarkType = "5">
          </BreakpointContent>
@@ -362,11 +362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/AppDelegate.cpp"
-            timestampString = "479829827.312093"
+            timestampString = "480063528.82917"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "AppDelegate::applicationDidFinishLaunching()"
             landmarkType = "5">
          </BreakpointContent>
@@ -666,11 +666,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/Button.cpp"
-            timestampString = "480060095.006169"
+            timestampString = "480595908.604608"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "Button::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,cocos2d::Vec2 ancPos,ObjectTag tag)"
             landmarkType = "5">
          </BreakpointContent>
@@ -682,11 +682,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/Button.cpp"
-            timestampString = "480060095.006169"
+            timestampString = "480595908.604608"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "Button::Update(float delta)"
             landmarkType = "5">
          </BreakpointContent>
@@ -714,11 +714,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/Button.cpp"
-            timestampString = "479987017.614391"
+            timestampString = "480595908.604608"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "Button::Button()"
             landmarkType = "5">
          </BreakpointContent>
@@ -730,13 +730,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/Button.cpp"
-            timestampString = "479987017.614391"
+            timestampString = "480595908.604608"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "Button::~Button()"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button::~Button()"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Obj/Button.cpp"
+                  timestampString = "480595112.265079"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button::~Button()"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Obj/Button.cpp"
+                  timestampString = "480595112.26575"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button::~Button()"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Obj/Button.cpp"
+                  timestampString = "480595112.266289"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -890,35 +937,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/Button.hpp"
-            timestampString = "480017067.347641"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Classes/Obj/Button.hpp"
-            timestampString = "480057092.447844"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Classes/Mgr/SceneMgr.hpp"
-            timestampString = "480021387.576003"
+            timestampString = "480594627.821458"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
@@ -931,12 +950,40 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Classes/Obj/Button.cpp"
-            timestampString = "480060095.006169"
+            filePath = "../Classes/Obj/Button.hpp"
+            timestampString = "480594627.821458"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "29"
+            endingLineNumber = "29">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Mgr/SceneMgr.hpp"
+            timestampString = "480063528.82917"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/Button.cpp"
+            timestampString = "480595908.604608"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "Button::onTouchEnded(Touch* touch, Event* event)"
             landmarkType = "5">
          </BreakpointContent>
@@ -948,11 +995,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/Button.cpp"
-            timestampString = "480060095.006169"
+            timestampString = "480595908.604608"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "Button::onTouchEnded(Touch* touch, Event* event)"
             landmarkType = "5">
          </BreakpointContent>
@@ -964,11 +1011,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/Button.cpp"
-            timestampString = "480060095.006169"
+            timestampString = "480595908.604608"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "Button::onTouchEnded(Touch* touch, Event* event)"
             landmarkType = "5">
          </BreakpointContent>
@@ -980,11 +1027,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/Button.cpp"
-            timestampString = "480060095.006169"
+            timestampString = "480595908.604608"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
             landmarkName = "Button::onTouchEnded(Touch* touch, Event* event)"
             landmarkType = "5">
          </BreakpointContent>
@@ -996,11 +1043,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/Button.cpp"
-            timestampString = "480060095.006169"
+            timestampString = "480595908.604608"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "Button::onTouchEnded(Touch* touch, Event* event)"
             landmarkType = "5">
          </BreakpointContent>
@@ -1012,11 +1059,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/Button.cpp"
-            timestampString = "480060095.006169"
+            timestampString = "480595908.604608"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "Button::Update(float delta)"
             landmarkType = "5">
          </BreakpointContent>
@@ -1099,6 +1146,565 @@
             endingLineNumber = "33"
             landmarkName = "isPointToRect(cocos2d::Vec2 point, cocos2d::Vec2 pos,cocos2d::Vec2 size, cocos2d::Vec2 anchorPoint = AncPoint::AnchorCenter)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/NextSceneButton.cpp"
+            timestampString = "480067068.23704"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/NextSceneButton.cpp"
+            timestampString = "480067077.03149"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/NextSceneButton.cpp"
+            timestampString = "480067083.997825"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "NextSceneButton::onTouchBegan(Touch* touch, Event* event)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/NextSceneButton.cpp"
+            timestampString = "480067128.290865"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "NextSceneButton::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,cocos2d::Vec2 ancPos,ObjectTag tag)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/NextSceneButton.cpp"
+            timestampString = "480067131.450864"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "NextSceneButton::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,cocos2d::Vec2 ancPos,ObjectTag tag)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/NextSceneButton.cpp"
+            timestampString = "480440523.002037"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "NextSceneButton::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,cocos2d::Vec2 ancPos,ObjectTag tag)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Scene/TitleScene.cpp"
+            timestampString = "480595908.604608"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "TitleScene::init()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Scene/TitleScene.cpp"
+            timestampString = "480595908.604608"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "TitleScene::init()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/GameObject.hpp"
+            timestampString = "480440610.967061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button* create_func&lt;Button&gt;::Create&lt;cocos2d::Vec2&amp;, cocos2d::Vec2, cocos2d::Vec2 const&amp;, GameObject::ObjectTag&gt;(cocos2d::Vec2&amp;&amp;&amp;, cocos2d::Vec2&amp;&amp;, cocos2d::Vec2 const&amp;&amp;&amp;, GameObject::ObjectTag&amp;&amp;)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/GameObject.hpp"
+                  timestampString = "480441978.160308"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "78">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button* create_func&lt;Button&gt;::Create&lt;cocos2d::Vec2&amp;, cocos2d::Vec2, cocos2d::Vec2 const&amp;, GameObject::ObjectTag, SceneMgr::SceneType&gt;(cocos2d::Vec2&amp;&amp;&amp;, cocos2d::Vec2&amp;&amp;, cocos2d::Vec2 const&amp;&amp;&amp;, GameObject::ObjectTag&amp;&amp;, SceneMgr::SceneType&amp;&amp;)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/GameObject.hpp"
+                  timestampString = "480441978.160578"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/GameObject.hpp"
+            timestampString = "480440611.657818"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button* create_func&lt;Button&gt;::Create&lt;cocos2d::Vec2&amp;, cocos2d::Vec2, cocos2d::Vec2 const&amp;, GameObject::ObjectTag&gt;(cocos2d::Vec2&amp;&amp;&amp;, cocos2d::Vec2&amp;&amp;, cocos2d::Vec2 const&amp;&amp;&amp;, GameObject::ObjectTag&amp;&amp;)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/GameObject.hpp"
+                  timestampString = "480441978.161887"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "267">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button* create_func&lt;Button&gt;::Create&lt;cocos2d::Vec2&amp;, cocos2d::Vec2, cocos2d::Vec2 const&amp;, GameObject::ObjectTag, SceneMgr::SceneType&gt;(cocos2d::Vec2&amp;&amp;&amp;, cocos2d::Vec2&amp;&amp;, cocos2d::Vec2 const&amp;&amp;&amp;, GameObject::ObjectTag&amp;&amp;, SceneMgr::SceneType&amp;&amp;)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/GameObject.hpp"
+                  timestampString = "480441978.162149"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/GameObject.hpp"
+            timestampString = "480440691.12761"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button* create_func&lt;Button&gt;::Create&lt;cocos2d::Vec2&amp;, cocos2d::Vec2, cocos2d::Vec2 const&amp;, GameObject::ObjectTag&gt;(cocos2d::Vec2&amp;&amp;&amp;, cocos2d::Vec2&amp;&amp;, cocos2d::Vec2 const&amp;&amp;&amp;, GameObject::ObjectTag&amp;&amp;)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/GameObject.hpp"
+                  timestampString = "480441978.163484"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button* create_func&lt;Button&gt;::Create&lt;cocos2d::Vec2&amp;, cocos2d::Vec2, cocos2d::Vec2 const&amp;, GameObject::ObjectTag, SceneMgr::SceneType&gt;(cocos2d::Vec2&amp;&amp;&amp;, cocos2d::Vec2&amp;&amp;, cocos2d::Vec2 const&amp;&amp;&amp;, GameObject::ObjectTag&amp;&amp;, SceneMgr::SceneType&amp;&amp;)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/GameObject.hpp"
+                  timestampString = "480441978.163757"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/GameObject.hpp"
+            timestampString = "480441983.85483"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button* create_func&lt;Button&gt;::Create&lt;cocos2d::Vec2&amp;, cocos2d::Vec2, cocos2d::Vec2 const&amp;, GameObject::ObjectTag&gt;(cocos2d::Vec2&amp;&amp;&amp;, cocos2d::Vec2&amp;&amp;, cocos2d::Vec2 const&amp;&amp;&amp;, GameObject::ObjectTag&amp;&amp;)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/GameObject.hpp"
+                  timestampString = "480441983.857011"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button* create_func&lt;Button&gt;::Create&lt;cocos2d::Vec2&amp;, cocos2d::Vec2, cocos2d::Vec2 const&amp;, GameObject::ObjectTag, SceneMgr::SceneType&gt;(cocos2d::Vec2&amp;&amp;&amp;, cocos2d::Vec2&amp;&amp;, cocos2d::Vec2 const&amp;&amp;&amp;, GameObject::ObjectTag&amp;&amp;, SceneMgr::SceneType&amp;&amp;)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/GameObject.hpp"
+                  timestampString = "480441983.857251"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/GameObject.hpp"
+            timestampString = "480441984.888849"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button* create_func&lt;Button&gt;::Create&lt;cocos2d::Vec2&amp;, cocos2d::Vec2, cocos2d::Vec2 const&amp;, GameObject::ObjectTag&gt;(cocos2d::Vec2&amp;&amp;&amp;, cocos2d::Vec2&amp;&amp;, cocos2d::Vec2 const&amp;&amp;&amp;, GameObject::ObjectTag&amp;&amp;)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/GameObject.hpp"
+                  timestampString = "480441984.891442"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "78">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button* create_func&lt;Button&gt;::Create&lt;cocos2d::Vec2&amp;, cocos2d::Vec2, cocos2d::Vec2 const&amp;, GameObject::ObjectTag, SceneMgr::SceneType&gt;(cocos2d::Vec2&amp;&amp;&amp;, cocos2d::Vec2&amp;&amp;, cocos2d::Vec2 const&amp;&amp;&amp;, GameObject::ObjectTag&amp;&amp;, SceneMgr::SceneType&amp;&amp;)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/GameObject.hpp"
+                  timestampString = "480441984.891731"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/GameObject.hpp"
+            timestampString = "480441987.922988"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button* create_func&lt;Button&gt;::Create&lt;cocos2d::Vec2&amp;, cocos2d::Vec2, cocos2d::Vec2 const&amp;, GameObject::ObjectTag&gt;(cocos2d::Vec2&amp;&amp;&amp;, cocos2d::Vec2&amp;&amp;, cocos2d::Vec2 const&amp;&amp;&amp;, GameObject::ObjectTag&amp;&amp;)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/GameObject.hpp"
+                  timestampString = "480441987.925339"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "267">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button* create_func&lt;Button&gt;::Create&lt;cocos2d::Vec2&amp;, cocos2d::Vec2, cocos2d::Vec2 const&amp;, GameObject::ObjectTag, SceneMgr::SceneType&gt;(cocos2d::Vec2&amp;&amp;&amp;, cocos2d::Vec2&amp;&amp;, cocos2d::Vec2 const&amp;&amp;&amp;, GameObject::ObjectTag&amp;&amp;, SceneMgr::SceneType&amp;&amp;)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/GameObject.hpp"
+                  timestampString = "480441987.925609"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/NextSceneButton.cpp"
+            timestampString = "480442044.923621"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "NextSceneButton::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,cocos2d::Vec2 ancPos,ObjectTag tag)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/NextSceneButton.cpp"
+            timestampString = "480442098.649375"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "NextSceneButton::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,cocos2d::Vec2 ancPos,ObjectTag tag)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/NextSceneButton.cpp"
+            timestampString = "480442101.783185"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "NextSceneButton::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,cocos2d::Vec2 ancPos,ObjectTag tag)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/Button.cpp"
+            timestampString = "480595908.604608"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "Button::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,cocos2d::Vec2 ancPos,ObjectTag tag)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/Button.cpp"
+            timestampString = "480595908.604608"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "Button::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,cocos2d::Vec2 ancPos,ObjectTag tag)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/Button.cpp"
+            timestampString = "480595908.604608"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "Button::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,cocos2d::Vec2 ancPos,ObjectTag tag)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/Button.cpp"
+            timestampString = "480595908.604608"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "Button::~Button()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button::~Button()"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Obj/Button.cpp"
+                  timestampString = "480595130.401019"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button::~Button()"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Obj/Button.cpp"
+                  timestampString = "480595130.401283"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Button::~Button()"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Obj/Button.cpp"
+                  timestampString = "480595130.401522"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

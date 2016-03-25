@@ -59,31 +59,6 @@ namespace Screen {
         leftBottomCenter  = rightCenter - cocos2d::Vec2(0,quatervisbleSize.y);
         rightBottomCenter = leftCenter  - cocos2d::Vec2(0,quatervisbleSize.y);
 
-//        leftTop = cocos2d::Vec2(0,screenSize.y) + visibleoriginPoint;
-//        rightTop = cocos2d::Vec2(screenSize.x,screenSize.y) + visibleoriginPoint;
-//        leftBottom  = cocos2d::Vec2(0,0)+ visibleoriginPoint;
-//        rightBottom = cocos2d::Vec2(screenSize.x,0)+ visibleoriginPoint;
-//        
-//        
-//        center = screenSize * 0.5f + visibleoriginPoint;
-//        left = center - cocos2d::Vec2(screenSize.x * 0.5f,0);
-//        right = center + cocos2d::Vec2(screenSize.x * 0.5f,0);
-//        
-//        
-//        cocos2d::Vec2 quatervisbleSize = screenSize * 0.25f  + visibleoriginPoint;
-//        
-//        leftCenter   = center - cocos2d::Vec2(quatervisbleSize.x,0) ;
-//        upCenter     = center + cocos2d::Vec2(0,quatervisbleSize.y) ;
-//        rightCenter  = center + cocos2d::Vec2(quatervisbleSize.x,0) ;
-//        downCenter   = center - cocos2d::Vec2(0,quatervisbleSize.y) ;
-//        topCenter    = center + cocos2d::Vec2(0,center.y) ;
-//        bottomCenter = center - cocos2d::Vec2(0,center.y) ;
-//        
-//        leftTopCenter  = cocos2d::Vec2(quatervisbleSize.x,quatervisbleSize.y * 3);
-//        rightTopCenter  = cocos2d::Vec2(quatervisbleSize.x * 3,quatervisbleSize.y * 3);
-//        leftBottomCenter  = cocos2d::Vec2(quatervisbleSize.x,quatervisbleSize.y);
-//        rightBottomCenter  = cocos2d::Vec2(quatervisbleSize.x * 3,quatervisbleSize.y );
-     
     }
     
     //基底サイズと端末サイズの差を調整
@@ -100,6 +75,16 @@ namespace Screen {
        
 
     }
+    
+    //フルスクリーンにする(背景とかに使用）
+    void Screen::FulScreenSprite(cocos2d::Sprite* sprite)
+    {
+        sprite->setPosition(center);
+        sprite->setScale(1 * magnification.y,1 * magnification.y);
+        
+    
+    }
+    
     
     
 }

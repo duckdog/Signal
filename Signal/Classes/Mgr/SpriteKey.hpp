@@ -14,9 +14,9 @@ namespace Resource {
     {
         None = -1,
         
-        Test,
+        TitleBg,
         UIButton,
-        
+        NextSceneButtonMenu,
         Last,
     };
     
