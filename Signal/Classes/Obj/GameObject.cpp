@@ -30,5 +30,4 @@ void GameObject::UpdatePosScale(cocos2d::Sprite* sprite)
 {
     sprite->setPosition(pos_);
     sprite->setScale(scale_.x,scale_.y);
-    
 }

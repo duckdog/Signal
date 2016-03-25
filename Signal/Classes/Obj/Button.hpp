@@ -8,6 +8,10 @@
 
 #pragma once
 #include "GameObject.hpp"
+#include "SceneMgr.hpp"
+#include <functional>
+
+
 
 class Button : public GameObject,create_func<Button>
 {
@@ -16,12 +20,16 @@ public:
     
     Button();
     ~Button();
+    //通常初期化
     virtual bool init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,
                       cocos2d::Vec2 ancPos,ObjectTag tag);
+       
     virtual void Update(float delta);
     bool IsTouch(){return isTouch_;};
     using create_func::Create;
     
+    static void SetTouchEndedFunc(std::function<void()> func){ touchEndedFuncs_.push_back(func);}
+    static void SetTouchEndedFuncs( std::vector<std::function<void()>>& funcs){ touchEndedFuncs_ = std::move(funcs);}
     
 protected:
     
@@ -29,7 +37,14 @@ protected:
     virtual bool onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event);
     virtual void onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* event);
     virtual void onTouchEnded(cocos2d::Touch* touch, cocos2d::Event* event);
+    template<class T>   T* AddCreate(){};
     const char* buttonSpritePath = "button.png";
+    
+    
+    static std::vector<std::function<void()>> touchBeganFuncs_;
+    static std::vector<std::function<void()>> touchMovedFuncs_;
+    static std::vector<std::function<void()>> touchEndedFuncs_;
+    
     
     bool isTouch_;
 
@@ -37,25 +52,4 @@ protected:
 };
 
 
-/*
- Button* Button::Create(cocos2d::Vec2 pos, cocos2d::Vec2 scale,
- cocos2d::Vec2 ancPos, GameObject::ObjectTag tag)
- {
- 
- //生成
- Button* pRet = new Button();
- 
- //メモリ確保、初期化の可否チェック
- if(pRet && pRet->init(pos,scale,ancPos,tag)){
- //cocos2d::Refに定義されてるリファレンスカウンタ適用のautorelease関数適用
- pRet->autorelease();
- return pRet;
- }
- else{
- //失敗した場合NULL返却
- delete  pRet;
- pRet = NULL;
- return NULL;
- }
- }
- */
+

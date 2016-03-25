@@ -13,6 +13,9 @@
 #include "../Mgr/SpriteMgr.hpp"
 #include "Collision.hpp"
 
+
+
+
 class GameObject: public cocos2d::Sprite
 {
 public:
@@ -32,12 +35,12 @@ public:
     
     cocos2d::Vec2 GetPos(){return pos_;}
     cocos2d::Sprite* GetSprite(){return sprite_;}
+    void SetSprite();
 
 protected:
     
     void UpdatePosScale(cocos2d::Sprite*);
     //タッチ処理用
-    
     virtual bool onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event){};
     virtual void onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* event){};
     virtual void onTouchEnded(cocos2d::Touch* touch, cocos2d::Event* event){};
@@ -61,6 +64,7 @@ struct create_func {
     static Derived* Create(Args&&... args) {
         //生成
         auto p = new Derived();
+        
         //メモリ確保、初期化の可否チェック
         if (p->init(std::forward<Args>(args)...)) {
             //cocos2d::Refに定義されてるリファレンスカウンタ適用のautorelease関数適用
@@ -74,4 +78,6 @@ struct create_func {
         }
     }
 };
+
+
 
