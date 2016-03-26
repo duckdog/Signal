@@ -15,14 +15,23 @@
 
 class Button : public GameObject,create_func<Button>
 {
+
     
 public:
     
     Button();
     ~Button();
+    
+    //タッチ処理用
+    virtual bool onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event);
+    virtual void onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* event);
+    virtual void onTouchEnded(cocos2d::Touch* touch, cocos2d::Event* event);
+
     //通常初期化
-    virtual bool init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,
-                      cocos2d::Vec2 ancPos,ObjectTag tag);
+    virtual bool init(cocos2d::Vec2 pos, cocos2d::Vec2 scale,
+                      cocos2d::Vec2 ancPos     = AncPoint::AnchorCenter,
+                      const char*   spritePath = "button.png",
+                      ObjectTag     tag        = ObjectTag::Button);
        
     virtual void Update(float delta);
     bool IsTouch(){return isTouch_;};
@@ -32,15 +41,7 @@ public:
     static void SetTouchEndedFuncs( std::vector<std::function<void()>>& funcs){ touchEndedFuncs_ = std::move(funcs);}
     
 protected:
-    
-    //タッチ処理用
-    virtual bool onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event);
-    virtual void onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* event);
-    virtual void onTouchEnded(cocos2d::Touch* touch, cocos2d::Event* event);
-    template<class T>   T* AddCreate(){};
-    const char* buttonSpritePath = "button.png";
-    
-    
+
     static std::vector<std::function<void()>> touchBeganFuncs_;
     static std::vector<std::function<void()>> touchMovedFuncs_;
     static std::vector<std::function<void()>> touchEndedFuncs_;

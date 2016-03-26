@@ -30,8 +30,7 @@ bool ObjectCreateTestScene::init()
         return false;
     }
     //生成と追加　UpdateはButtonクラス内で行う
-    auto button =  Button::Create(Screen::Screen::Get().center,Vec2(1,1),
-                                  AncPoint::AnchorCenter,GameObject::ObjectTag::Button);
+    auto button =  Button::Create(Screen::Screen::Get().center,Vec2(1,1));
     
     this->addChild(button,1);
     this->schedule(schedule_selector(ObjectCreateTestScene::Update));

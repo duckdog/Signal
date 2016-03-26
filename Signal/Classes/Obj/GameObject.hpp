@@ -37,13 +37,19 @@ public:
     cocos2d::Sprite* GetSprite(){return sprite_;}
     void SetSprite();
 
-protected:
-    
-    void UpdatePosScale(cocos2d::Sprite*);
     //タッチ処理用
     virtual bool onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event){};
     virtual void onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* event){};
     virtual void onTouchEnded(cocos2d::Touch* touch, cocos2d::Event* event){};
+    
+    
+protected:
+    virtual void InitInfo(cocos2d::Vec2 pos,   cocos2d::Vec2 scale,
+                          cocos2d::Vec2 ancPos,cocos2d::Sprite* sprite,
+                          ObjectTag tag);
+    
+    void UpdatePosScale(cocos2d::Sprite*);
+   
     
 	cocos2d::Vec2 pos_;
     cocos2d::Vec2 size_;

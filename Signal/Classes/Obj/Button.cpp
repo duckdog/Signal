@@ -16,38 +16,32 @@ std::vector<std::function<void()>> Button::touchEndedFuncs_;
 Button::Button()
 :GameObject(), isTouch_(false)
 {
-    
 }
 Button::~Button()
 {
     
 }
 
-bool Button::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,cocos2d::Vec2 ancPos,ObjectTag tag)
+bool Button::init(cocos2d::Vec2 pos, cocos2d::Vec2 scale,
+                  cocos2d::Vec2 ancPos,const char* spritePath,
+                  ObjectTag     tag)
 {
     
     if(!cocos2d::Sprite::init())
     {
         return false;
     }
-    //ステータスを初期化
-    pos_ = pos;
-    scale_ = scale;
-    ancPos_ = ancPos;
-    tag_ = tag;
-    spritePath_ = buttonSpritePath;
     
-    //描画がする画像の初期化
+    //生成
+    spritePath_ = spritePath;
     sprite_ = SpriteMgr::Get().Add(spritePath_,Resource::SpriteKey::UIButton);
+    //ステータス,描画する画像の初期化
+    Button::InitInfo(pos,scale,ancPos,sprite_,tag);
     sprite_->setScale(scale_.x,scale_.y);
     sprite_->setPosition(pos_);
     sprite_->setAnchorPoint(ancPos_);
     this->addChild(sprite_);
     
-    //画像サイズを取得,当たり判定用にサイズを設定。
-    size_ = sprite_->getContentSize();
-    size_ = Vec2(size_.x * scale.x , size_.y * scale.y);
-
     //Updateを登録.
     this->schedule(schedule_selector(Button::Update));
     
