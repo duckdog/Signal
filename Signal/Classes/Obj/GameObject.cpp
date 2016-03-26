@@ -39,7 +39,9 @@ void GameObject::InitInfo(cocos2d::Vec2 pos,cocos2d::Vec2 scale,
     scale_ = scale;
     ancPos_ = ancPos;
     tag_ = tag;
-    
+    sprite_->setScale(scale_.x,scale_.y);
+    sprite_->setPosition(pos_);
+    sprite_->setAnchorPoint(ancPos_);
     //画像サイズを取得,当たり判定用にサイズを設定。
     size_ = sprite->getContentSize();
     size_ = Vec2(size_.x * scale.x , size_.y * scale.y);
