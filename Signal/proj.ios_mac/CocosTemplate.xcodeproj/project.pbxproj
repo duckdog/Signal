@@ -84,6 +84,8 @@
 		E1A728181C9D2D6C00670C9E /* titleTouchLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A7280A1C9D2D6C00670C9E /* titleTouchLogo.png */; };
 		E1A728191C9D2D6C00670C9E /* UI in Resources */ = {isa = PBXBuildFile; fileRef = E1A7280B1C9D2D6C00670C9E /* UI */; };
 		E1A7281A1C9D2D6C00670C9E /* UP.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A7280C1C9D2D6C00670C9E /* UP.png */; };
+		E1A7517F1CA66B3E00AE2ADC /* ParticleEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1A7517D1CA66B3E00AE2ADC /* ParticleEmitter.cpp */; };
+		E1A751821CA672BD00AE2ADC /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1A751801CA672BD00AE2ADC /* Particle.cpp */; };
 		E1EB8AA21C99582F004B412B /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1EB8AA01C99582F004B412B /* Button.cpp */; };
 		E1EB8AA61C997ADC004B412B /* ObjectCreateTestScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1EB8AA41C997ADC004B412B /* ObjectCreateTestScene.cpp */; };
 		ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7B1B68A1F400C3958E /* libiconv.dylib */; };
@@ -214,6 +216,11 @@
 		E1A7280A1C9D2D6C00670C9E /* titleTouchLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleTouchLogo.png; sourceTree = "<group>"; };
 		E1A7280B1C9D2D6C00670C9E /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UI; sourceTree = "<group>"; };
 		E1A7280C1C9D2D6C00670C9E /* UP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UP.png; sourceTree = "<group>"; };
+		E1A7517D1CA66B3E00AE2ADC /* ParticleEmitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleEmitter.cpp; path = Obj/ParticleEmitter.cpp; sourceTree = "<group>"; };
+		E1A7517E1CA66B3E00AE2ADC /* ParticleEmitter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ParticleEmitter.hpp; path = Obj/ParticleEmitter.hpp; sourceTree = "<group>"; };
+		E1A751801CA672BD00AE2ADC /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle.cpp; path = Obj/Particle.cpp; sourceTree = "<group>"; };
+		E1A751811CA672BD00AE2ADC /* Particle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Particle.hpp; path = Obj/Particle.hpp; sourceTree = "<group>"; };
+		E1A751841CA6DB2000AE2ADC /* Random.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Random.hpp; sourceTree = "<group>"; };
 		E1EB8AA01C99582F004B412B /* Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Button.cpp; path = Obj/Button.cpp; sourceTree = "<group>"; };
 		E1EB8AA11C99582F004B412B /* Button.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Button.hpp; path = Obj/Button.hpp; sourceTree = "<group>"; };
 		E1EB8AA41C997ADC004B412B /* ObjectCreateTestScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ObjectCreateTestScene.cpp; path = Scene/ObjectCreateTestScene.cpp; sourceTree = "<group>"; };
@@ -379,6 +386,7 @@
 				E16B9CE31C8B1FF400819364 /* Screen.hpp */,
 				E16B9CE41C8B236F00819364 /* Screen.cpp */,
 				E1A727FC1C9D188B00670C9E /* Collision.hpp */,
+				E1A751841CA6DB2000AE2ADC /* Random.hpp */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -451,6 +459,10 @@
 				E16B9CD31C8AAA6B00819364 /* GameObject.hpp */,
 				E1EB8AA01C99582F004B412B /* Button.cpp */,
 				E1EB8AA11C99582F004B412B /* Button.hpp */,
+				E1A7517D1CA66B3E00AE2ADC /* ParticleEmitter.cpp */,
+				E1A7517E1CA66B3E00AE2ADC /* ParticleEmitter.hpp */,
+				E1A751801CA672BD00AE2ADC /* Particle.cpp */,
+				E1A751811CA672BD00AE2ADC /* Particle.hpp */,
 			);
 			name = Obj;
 			sourceTree = "<group>";
@@ -465,8 +477,8 @@
 				E118C4AF1C9C888E007578EF /* TitleScene.cpp */,
 				E118C4B01C9C888E007578EF /* TitleScene.hpp */,
 				E118C4B21C9C889E007578EF /* MenuScene.cpp */,
-				E118C4B31C9C889E007578EF /* MenuScene.hpp */,
 				E118C4B51C9C88B0007578EF /* GameScene.cpp */,
+				E118C4B31C9C889E007578EF /* MenuScene.hpp */,
 				E118C4B61C9C88B0007578EF /* GameScene.hpp */,
 			);
 			name = Scene;
@@ -631,12 +643,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16B9CC81C8AAA1600819364 /* AppDelegate.cpp in Sources */,
+				E1A751821CA672BD00AE2ADC /* Particle.cpp in Sources */,
 				E118C4B41C9C889E007578EF /* MenuScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				E1EB8AA61C997ADC004B412B /* ObjectCreateTestScene.cpp in Sources */,
 				E118C4B71C9C88B0007578EF /* GameScene.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				E16B9CD11C8AAA5B00819364 /* SceneMgr.cpp in Sources */,
+				E1A7517F1CA66B3E00AE2ADC /* ParticleEmitter.cpp in Sources */,
 				E16B9CD41C8AAA6B00819364 /* GameObject.cpp in Sources */,
 				E1EB8AA21C99582F004B412B /* Button.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,

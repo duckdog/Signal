@@ -18,7 +18,7 @@ namespace Random {
     
     static void Init()
     {
-        
+        //乱数の初期化.
         srand((unsigned int)time(NULL));
         
     }

@@ -17,6 +17,7 @@ namespace Resource {
         TitleBg,
         UIButton,
         NextSceneButtonMenu,
+        ParticleSmog,
         Last,
     };
     
