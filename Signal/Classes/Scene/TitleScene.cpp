@@ -7,7 +7,7 @@
 //
 
 #include "TitleScene.hpp"
-#include "../Obj/ParticleEmitter.hpp"
+#include "../Obj/TouchParticle.hpp"
 #include "../Mgr/SpriteMgr.hpp"
 #include "../Screen.hpp"
 #include "../Obj/Button.hpp"
@@ -72,7 +72,9 @@ void TitleScene::Update(float delta)
 bool TitleScene::onTouchBegan(Touch* touch, Event* event)
 {
     auto touchPos = touch->getLocation();
-    this->addChild(ParticleEmitter::Create(touchPos));
+    //this->addChild(ParticleEmitter::TouchParticleCreate(touchPos));
+    this->addChild(TouchParticle::TouchParticleCreate(touchPos));
+
     
     return true;
 }
