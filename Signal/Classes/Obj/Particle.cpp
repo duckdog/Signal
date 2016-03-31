@@ -22,10 +22,11 @@ bool Particle::init(cocos2d::Vec2    pos,     cocos2d::Vec2 scale,
     }
     //オブジェクトの基本情報を初期化
     sprite_ = sprite;
-    Particle::InitInfo(pos,scale,ancPos,sprite_,tag);
     direction_ = direc;
     speed_     = speed;
     lifeTime_  = lifeTime;
+    count_ = 0;
+    Particle::InitInfo(pos,scale,ancPos,sprite_,tag);
     this->addChild(sprite_);
     sprite_->setPosition(pos);
     
@@ -44,10 +45,21 @@ bool Particle::init(cocos2d::Vec2    pos,     cocos2d::Vec2 scale,
 void Particle::Update(float delta)
 {
     //与えられたベクトルに進む
-    pos_ += direction_ * speed_ * delta;
     lifeTime_ -= 1 * delta;
+    count_    += 1 * delta;
+    pos_      += direction_ * speed_ * delta;
+    //AddGravitiy(pos_,count_);
     
     if(lifeTime_ < 0){this->removeFromParentAndCleanup(true);}
     else{sprite_->setPosition(pos_);}
 
+}
+
+//重力計算を追加
+void Particle::AddGravitiy(cocos2d::Vec2& pos,float time,float initialVelocity,float acceleration)
+{
+    // (1/2gt^2)重力加速度
+    static double g = 10.0f;
+    float addGravity = initialVelocity + g * (time * time) * 0.5f * acceleration;
+    pos -= Vec2(0,addGravity);
 }

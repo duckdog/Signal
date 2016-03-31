@@ -33,6 +33,7 @@ public:
 	GameObject();
 	~GameObject();
     
+    
     cocos2d::Vec2 GetPos(){return pos_;}
     cocos2d::Sprite* GetSprite(){return sprite_;}
     void SetSprite();

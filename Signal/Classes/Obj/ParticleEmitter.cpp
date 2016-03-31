@@ -8,9 +8,12 @@
 
 #include "ParticleEmitter.hpp"
 #include "Particle.hpp"
+#include "Random.hpp"
+
 std::vector<std::function<void()>> ParticleEmitter::touchBeganFuncs_;
 std::vector<std::function<void()>> ParticleEmitter::touchMovedFuncs_;
 std::vector<std::function<void()>> ParticleEmitter::touchEndedFuncs_;
+
 
 ParticleEmitter::ParticleEmitter()
 :GameObject()
@@ -23,7 +26,10 @@ ParticleEmitter::~ParticleEmitter()
     
 }
 
+//生成
 bool ParticleEmitter::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,
+                           cocos2d::Vec2 direc,
+                           float angle,
                            float lifeTime,int maxPartcle,
                            float speed, const char* spritePath)
 {
@@ -37,12 +43,15 @@ bool ParticleEmitter::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,
     //画像生成
     SpriteMgr::Get().Add(spritePath,Resource::SpriteKey::ParticleSmog);
     //パーティクル生成
+    //方向を計算、取得
+    auto direcs = GetFanDirecs(direc,angle,maxPartcle);
     for(int i = 0; i < maxPartcle; i++)
     {
         auto particle =SpriteMgr::Get().Find(SpriteKey::ParticleSmog);
-        this->addChild(Particle::Create(pos,scale,
-                                        particle,Direction::upVec,
-                                        lifeTime,speed));
+        particleVector_.push_back(Particle::Create(pos,scale,
+                                                   particle,direcs[i],
+                                                   lifeTime,speed));
+        this->addChild(particleVector_[i]);
     }
     
     //Updateを登録.
@@ -51,10 +60,12 @@ bool ParticleEmitter::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,
     return true;
 }
 
+
+
 void ParticleEmitter::Update(float delta)
 {
     //位置とスケールを更新　出現させたパーティクルがなくなったら、自動でremove
-    if(this->getChildren().size() == 0){this->removeFromParentAndCleanup(true); CCLOG("さらば！");}
+    if(this->getChildren().size() == 0){this->removeFromParentAndCleanup(true);}
 }
 
 

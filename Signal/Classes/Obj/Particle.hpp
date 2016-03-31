@@ -21,12 +21,20 @@ public:
               ObjectTag tag = ObjectTag::Null);
 
     void Update(float delta);
+    inline void SetSpeed(float speed){speed_ = speed;}
+    inline void SetLifeTime(float lifeTime){lifeTime_ = lifeTime;}
+    inline void SetDirection(cocos2d::Vec2 direc){direction_ = direc;}
+
+    
     using create_func::Create;
 
 private:
+    void AddGravitiy(cocos2d::Vec2& pos,float time,float initialVelocity = 0, float acceleration = 1);
+    
     
     float lifeTime_;
     float speed_;
+    float count_;
     cocos2d::Vec2 direction_;
     
 
