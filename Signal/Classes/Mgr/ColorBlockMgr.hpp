@@ -6,9 +6,29 @@
 //
 //
 
-#ifndef ColorBlockMgr_hpp
-#define ColorBlockMgr_hpp
+#pragma once
 
-#include <stdio.h>
+#include "../Obj/ColorBlock.hpp"
 
-#endif /* ColorBlockMgr_hpp */
+class ColorBlockMgr : public GameObject,
+create_func<ColorBlockMgr>
+{
+
+public:
+    
+    virtual bool init();
+    void Update(float delta);
+    using create_func::Create;
+    
+private:
+    
+    std::vector<ColorBlock*> blockVector_;
+    
+    
+    const cocos2d::Vec2 blockScale_ = Vec2(0.25f,0.25f);
+    cocos2d::Vec2 createStartPos_;
+    
+    const int rowMax_ = 5;
+    const int colMax_ = 3;
+
+};

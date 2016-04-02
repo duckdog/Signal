@@ -6,9 +6,62 @@
 //
 //
 
-#ifndef ScoreMgr_hpp
-#define ScoreMgr_hpp
+#pragma once
+#include <cocos2d.h>
 
-#include <stdio.h>
 
-#endif /* ScoreMgr_hpp */
+class ScoreMgr
+{
+public:
+    
+    static ScoreMgr& Get();
+    
+    void ScoreInit();
+    void RateInit();
+    bool CheckHighScore();
+    
+    //取得
+    int GetShowScore(){return showScore_;}
+    int GetcurrentScore(){return currentScore_;}
+    int GetHighScore(){return highScore_;}
+    
+    
+    //加算
+    void AddScore();
+    void AddComboCount();
+    
+    //更新
+    void UpdateScore(float delta);
+    
+private:
+    
+    ScoreMgr();
+    
+   
+    
+    //ハイスコア
+    int highScore_;
+    int highCombo_;
+    int breakButtonCount_;
+    
+    //タイマー
+    float addScoreSkipTimer_;
+    float comboTimeCount_;
+    const float skipTimeLimit_ = 1.0f;
+    const float comboTimeLimit_ = 1.5f;
+    
+    //スコア、コンボ保存領域.//////////////////
+    int currentScore_;
+    int showScore_;
+    int comboCount_;
+   
+    
+    //レート////////////////////////////////
+    const float defaultComboRate_ = 10.0f;
+    const float defaultScoreRate_ = 100.0f;
+    float comboRate_;
+    int scoreRate_;
+
+
+
+};
