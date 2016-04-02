@@ -21,6 +21,8 @@ public:
               ObjectTag tag = ObjectTag::Null);
 
     void Update(float delta);
+    void SetGravity(bool setGravity, float initialVelocity = 1,float acceleration = 5);
+    
     inline void SetSpeed(float speed){speed_ = speed;}
     inline void SetLifeTime(float lifeTime){lifeTime_ = lifeTime;}
     inline void SetDirection(cocos2d::Vec2 direc){direction_ = direc;}
@@ -37,6 +39,8 @@ private:
     float count_;
     cocos2d::Vec2 direction_;
     
-
+    bool setGravity_;
+    float initialVelocity_;
+    float acceleration_;
 
 };

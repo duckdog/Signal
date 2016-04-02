@@ -26,6 +26,7 @@ bool Particle::init(cocos2d::Vec2    pos,     cocos2d::Vec2 scale,
     speed_     = speed;
     lifeTime_  = lifeTime;
     count_ = 0;
+    setGravity_ = false;
     Particle::InitInfo(pos,scale,ancPos,sprite_,tag);
     this->addChild(sprite_);
     sprite_->setPosition(pos);
@@ -48,8 +49,8 @@ void Particle::Update(float delta)
     lifeTime_ -= 1 * delta;
     count_    += 1 * delta;
     pos_      += direction_ * speed_ * delta;
-    //AddGravitiy(pos_,count_);
     
+    if(setGravity_){AddGravitiy(pos_,count_,initialVelocity_,acceleration_);}
     if(lifeTime_ < 0){this->removeFromParentAndCleanup(true);}
     else{sprite_->setPosition(pos_);}
 
@@ -63,3 +64,19 @@ void Particle::AddGravitiy(cocos2d::Vec2& pos,float time,float initialVelocity,f
     float addGravity = initialVelocity + g * (time * time) * 0.5f * acceleration;
     pos -= Vec2(0,addGravity);
 }
+
+void Particle::SetGravity(bool setGravity, float initialVelocity,float acceleration)
+{
+    setGravity_ = setGravity;
+    initialVelocity_ = initialVelocity;
+    acceleration_ = acceleration;
+    
+
+}
+
+
+
+
+
+
+

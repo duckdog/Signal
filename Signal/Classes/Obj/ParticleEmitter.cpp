@@ -40,17 +40,18 @@ bool ParticleEmitter::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale,
     }
     
     
-    //画像生成
-    SpriteMgr::Get().Add(spritePath,Resource::SpriteKey::ParticleSmog);
+    
+
     //パーティクル生成
     //方向を計算、取得
     auto direcs = GetFanDirecs(direc,angle,maxPartcle);
     for(int i = 0; i < maxPartcle; i++)
     {
-        auto particle =SpriteMgr::Get().Find(SpriteKey::ParticleSmog);
+        auto particle = Sprite::create(spritePath);
         particleVector_.push_back(Particle::Create(pos,scale,
                                                    particle,direcs[i],
                                                    lifeTime,speed));
+        
         this->addChild(particleVector_[i]);
     }
     

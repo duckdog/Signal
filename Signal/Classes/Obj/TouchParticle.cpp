@@ -41,6 +41,9 @@ ParticleEmitter* TouchParticle::TouchParticleCreate(cocos2d::Vec2 pos,cocos2d::V
         auto spawn = cocos2d::Spawn::create(scaleTo, NULL);
         particleCell->::GameObject::GetSprite()->runAction(spawn);
         
+        //重力追加
+        particleCell->SetGravity(true);
+        
     }
     return instance;
     
