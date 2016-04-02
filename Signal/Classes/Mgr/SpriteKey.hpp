@@ -18,6 +18,7 @@ namespace Resource {
         UIButton,
         NextSceneButtonMenu,
         ParticleSmog,
+        Block,
         Last,
     };
     
