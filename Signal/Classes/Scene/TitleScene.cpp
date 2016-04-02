@@ -11,7 +11,8 @@
 #include "../Mgr/SpriteMgr.hpp"
 #include "../Screen.hpp"
 #include "../Obj/Button.hpp"
-
+#include "../Mgr/ScoreMgr.hpp"
+#include "../Mgr/ColorBlockMgr.hpp"
 Scene* TitleScene::createScene()
 {
     auto scene = Scene::create();
@@ -42,18 +43,23 @@ bool TitleScene::init()
     Screen::Screen::Get().FulScreenSprite(bg);
 
     //UI生成.シーン遷移機能を追加.
-    auto testButton = Button::Create(Screen::Screen::Get().downCenter,Vec2(0.20f,0.20f),
+    auto testButton = Button::Create(Screen::Screen::Get().center,Vec2(0.20f,0.20f),
                                      AncPoint::AnchorCenter,"StartButton.png");
     testButton->SetTouchEndedFunc([](){ SceneMgr::ReplaceScene(SceneType::Menu);});
-    auto testButton2 = Button::Create(Screen::Screen::Get().upCenter,Vec2(0.20f,0.20f),
-                                     AncPoint::AnchorCenter,"StartButton.png");
-    testButton2->SetTouchEndedFunc([](){ SceneMgr::ReplaceScene(SceneType::Menu);});
+    
+    
+    
+    
+    //テスト
+    ScoreMgr::Get().ScoreInit();
+    
     
     
     
     //シーンに追加
     objectList_.push_back(testButton);
-    objectList_.push_back(testButton2);
+    objectList_.push_back(ColorBlockMgr::Create());
+    
     for(auto obj : objectList_){this->addChild(obj);}
     this->addChild(bg, -1);
     
@@ -65,7 +71,9 @@ bool TitleScene::init()
 
 void TitleScene::Update(float delta)
 {
-
+    //テスト
+    ScoreMgr::Get().UpdateScore(delta);
+    
 }
 
 

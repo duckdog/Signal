@@ -56,8 +56,8 @@ namespace Screen {
         
         leftTopCenter     = leftCenter  + cocos2d::Vec2(0,quatervisbleSize.y);
         rightTopCenter    = rightCenter + cocos2d::Vec2(0,quatervisbleSize.y);
-        leftBottomCenter  = rightCenter - cocos2d::Vec2(0,quatervisbleSize.y);
-        rightBottomCenter = leftCenter  - cocos2d::Vec2(0,quatervisbleSize.y);
+        leftBottomCenter  = leftCenter  - cocos2d::Vec2(0,quatervisbleSize.y);
+        rightBottomCenter = rightCenter  - cocos2d::Vec2(0,quatervisbleSize.y);
 
     }
     

@@ -73,7 +73,6 @@ static std::vector<cocos2d::Vec2> GetFanDirecs(cocos2d::Vec2 baseDirec,int angle
     for(int i = 0; i < divisionNumber; i++){
         //θを求める
         double theata = divisionAngle * (i + 1) * toRadian;
-        CCLOG("theta %f",theata);
         directions.push_back(Vec2(baseDirec.x * cos(theata) - baseDirec.y * sin(theata),
                                   baseDirec.x * sin(theata) + baseDirec.y * cos(theata)));
     }
