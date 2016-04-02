@@ -1273,11 +1273,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Scene/TitleScene.cpp"
-            timestampString = "480683392.665333"
+            timestampString = "481267997.403591"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "TitleScene::init()"
             landmarkType = "5">
          </BreakpointContent>
@@ -1289,11 +1289,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/GameObject.hpp"
-            timestampString = "480684385.881484"
+            timestampString = "481214684.682597"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71">
+            startingLineNumber = "73"
+            endingLineNumber = "73">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -1335,11 +1335,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/GameObject.hpp"
-            timestampString = "480684385.881484"
+            timestampString = "481214684.682597"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74">
+            startingLineNumber = "76"
+            endingLineNumber = "76">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -1381,11 +1381,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/GameObject.hpp"
-            timestampString = "480684385.881484"
+            timestampString = "481214684.682597"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68">
+            startingLineNumber = "70"
+            endingLineNumber = "70">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -1427,11 +1427,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/GameObject.hpp"
-            timestampString = "480684385.881484"
+            timestampString = "481214684.682597"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67">
+            startingLineNumber = "69"
+            endingLineNumber = "69">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -1473,11 +1473,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/GameObject.hpp"
-            timestampString = "480684385.881484"
+            timestampString = "481214684.682597"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69">
+            startingLineNumber = "71"
+            endingLineNumber = "71">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -1519,11 +1519,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/GameObject.hpp"
-            timestampString = "480684385.881484"
+            timestampString = "481214684.682597"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73">
+            startingLineNumber = "75"
+            endingLineNumber = "75">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -1724,29 +1724,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/GameObject.hpp"
-            timestampString = "480684385.881484"
+            timestampString = "481214684.682597"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "InitInfo(cocos2d::Vec2 pos, cocos2d::Vec2 scale, cocos2d::Vec2 ancPos,cocos2d::Sprite* sprite, ObjectTag tag)"
             landmarkType = "6">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Classes/Obj/ParticleEmitter.cpp"
-            timestampString = "480702418.744741"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "ParticleEmitter::onTouchBegan(Touch* touch, Event* event)"
-            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1916,11 +1900,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/GameObject.hpp"
-            timestampString = "480684385.881484"
+            timestampString = "481214684.682597"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41">
+            startingLineNumber = "43"
+            endingLineNumber = "43">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -1976,28 +1960,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Classes/Scene/TitleScene.cpp"
-            timestampString = "480685377.258462"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "TitleScene::onTouchBegan(Touch* touch, Event* event)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/GameObject.hpp"
-            timestampString = "480684201.477464"
+            timestampString = "481214684.682597"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40">
+            startingLineNumber = "42"
+            endingLineNumber = "42">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -2086,12 +2054,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/ParticleEmitter.cpp"
-            timestampString = "480702418.744741"
+            timestampString = "481195575.295812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "ParticleEmitter::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale, float lifeTime,int maxPartcle, float speed, const char* spritePath)"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "ParticleEmitter::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale, cocos2d::Vec2 direc, float angle, float lifeTime,int maxPartcle, float speed, const char* spritePath)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2102,12 +2070,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/ParticleEmitter.cpp"
-            timestampString = "480702418.744741"
+            timestampString = "481195575.295812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "ParticleEmitter::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale, float lifeTime,int maxPartcle, float speed, const char* spritePath)"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "ParticleEmitter::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale, cocos2d::Vec2 direc, float angle, float lifeTime,int maxPartcle, float speed, const char* spritePath)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2118,13 +2086,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/ParticleEmitter.cpp"
-            timestampString = "480702418.744741"
+            timestampString = "481213720.534766"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "ParticleEmitter::Update(float delta)"
-            landmarkType = "5">
+            startingLineNumber = "63"
+            endingLineNumber = "63">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2150,11 +2116,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/Particle.cpp"
-            timestampString = "480700702.885222"
+            timestampString = "480858625.8859"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "Particle::init(cocos2d::Vec2 pos, cocos2d::Vec2 scale, cocos2d::Sprite* sprite, cocos2d::Vec2 direc, float lifeTime,float speed, cocos2d::Vec2 ancPos, ObjectTag tag)"
             landmarkType = "5">
          </BreakpointContent>
@@ -2166,12 +2132,500 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Obj/Particle.cpp"
-            timestampString = "480701319.740504"
+            timestampString = "481213720.534766"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "Particle::Update(float delta)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/Particle.cpp"
+            timestampString = "481213720.534766"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "Particle::AddGravitiy(cocos2d::Vec2&amp; pos,float time,float initialVelocity,float acceleration)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/Particle.cpp"
+            timestampString = "481213720.534766"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "Particle::AddGravitiy(cocos2d::Vec2&amp; pos,float time,float initialVelocity,float acceleration)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/Particle.cpp"
+            timestampString = "481213720.534766"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "Particle::Update(float delta)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/ParticleEmitter.cpp"
+            timestampString = "481195575.295812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
             endingLineNumber = "49"
-            landmarkName = "Particle::Update(float delta)"
+            landmarkName = "ParticleEmitter::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale, cocos2d::Vec2 direc, float angle, float lifeTime,int maxPartcle, float speed, const char* spritePath)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/ParticleEmitter.hpp"
+            timestampString = "481099440.684599"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetFanDirecs(cocos2d::Vec2, int, int)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Obj/ParticleEmitter.hpp"
+                  timestampString = "481039170.077092"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__cxx_global_var_init13"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/ParticleEmitter.hpp"
+                  timestampString = "481039170.077283"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/ParticleEmitter.cpp"
+            timestampString = "481195575.295812"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "ParticleEmitter::init(cocos2d::Vec2 pos,cocos2d::Vec2 scale, cocos2d::Vec2 direc, float angle, float lifeTime,int maxPartcle, float speed, const char* spritePath)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/ParticleEmitter.hpp"
+            timestampString = "481099440.684599"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetFanDirecs(cocos2d::Vec2, int, int)"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Obj/ParticleEmitter.hpp"
+                  timestampString = "481039161.319643"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "974">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__cxx_global_var_init13"
+                  moduleName = "CocosTemplate-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takumi/Documents/Cocos2d-xProjects/signal/Signal/Classes/Scene/../Obj/ParticleEmitter.hpp"
+                  timestampString = "481039161.319871"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "30">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/TouchParticle.cpp"
+            timestampString = "481213720.534766"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "TouchParticle::TouchParticleCreate(cocos2d::Vec2 pos,cocos2d::Vec2 scale, cocos2d::Vec2 direc, float angle, float lifeTime, int maxPartcle, float speed, const char* spritePath)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/TouchParticle.cpp"
+            timestampString = "481098682.517181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "TouchParticle::TouchParticleCreate(cocos2d::Vec2 pos,cocos2d::Vec2 scale, cocos2d::Vec2 direc, float angle, float lifeTime, int maxPartcle, float speed, const char* spritePath)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/ParticleEmitter.hpp"
+            timestampString = "481099264.49813"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/Button.cpp"
+            timestampString = "481174221.302262"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "Button::Update(float delta)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/ColorBlock.hpp"
+            timestampString = "481192631.833361"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/ColorBlock.cpp"
+            timestampString = "481195149.32534"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "ColorBlock::Update(float delta)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/ColorBlock.cpp"
+            timestampString = "481195149.32534"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "ColorBlock::Update(float delta)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/ColorBlock.cpp"
+            timestampString = "481195149.32534"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "ColorBlock::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *event)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Mgr/ScoreMgr.cpp"
+            timestampString = "481194274.171249"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "ScoreMgr::AddScore()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Mgr/ScoreMgr.cpp"
+            timestampString = "481194378.337279"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "ScoreMgr::UpdateScore(float delta)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Mgr/ScoreMgr.cpp"
+            timestampString = "481194407.125359"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "ScoreMgr::AddComboCount()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Mgr/ScoreMgr.cpp"
+            timestampString = "481194431.639809"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "ScoreMgr::AddComboCount()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Mgr/ScoreMgr.cpp"
+            timestampString = "481194439.463618"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "ScoreMgr::UpdateScore(float delta)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/ColorBlock.cpp"
+            timestampString = "481195149.32534"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "ColorBlock::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *event)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/ColorBlock.cpp"
+            timestampString = "481195149.32534"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "ColorBlock::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *event)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/ColorBlock.cpp"
+            timestampString = "481195149.32534"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "ColorBlock::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *event)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/ColorBlock.cpp"
+            timestampString = "481195149.32534"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "ColorBlock::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *event)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/TouchParticle.cpp"
+            timestampString = "481195296.146988"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "TouchParticle::TouchParticleCreate(cocos2d::Vec2 pos,cocos2d::Vec2 scale, cocos2d::Vec2 direc, float angle, float lifeTime, int maxPartcle, float speed, const char* spritePath)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/TouchParticle.hpp"
+            timestampString = "481215316.367282"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "TouchParticleCreate(cocos2d::Vec2 pos,cocos2d::Vec2 scale = Vec2(0.04f,0.04f), cocos2d::Vec2 direc = Direction::upVec, float angle = 360, float lifeTime = 0.3f, int maxPartcle = 20, float speed = 100, const char* spritePath = &quot;smog.png&quot;)"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Obj/GameObject.cpp"
+            timestampString = "481269108.608541"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "GameObject::InitInfo(cocos2d::Vec2 pos,cocos2d::Vec2 scale, cocos2d::Vec2 ancPos,cocos2d::Sprite* sprite, ObjectTag tag)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -56,6 +56,7 @@
 		E118C4B11C9C888E007578EF /* TitleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E118C4AF1C9C888E007578EF /* TitleScene.cpp */; };
 		E118C4B41C9C889E007578EF /* MenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E118C4B21C9C889E007578EF /* MenuScene.cpp */; };
 		E118C4B71C9C88B0007578EF /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E118C4B51C9C88B0007578EF /* GameScene.cpp */; };
+		E12470D31CAEBEDC00CBA8D9 /* ColorBlockMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12470D11CAEBEDC00CBA8D9 /* ColorBlockMgr.cpp */; };
 		E16B9CC81C8AAA1600819364 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E16B9CC61C8AAA1600819364 /* AppDelegate.cpp */; };
 		E16B9CD01C8AAA5B00819364 /* SpriteMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E16B9CCC1C8AAA5B00819364 /* SpriteMgr.cpp */; };
 		E16B9CD11C8AAA5B00819364 /* SceneMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E16B9CCE1C8AAA5B00819364 /* SceneMgr.cpp */; };
@@ -86,6 +87,9 @@
 		E1A7281A1C9D2D6C00670C9E /* UP.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A7280C1C9D2D6C00670C9E /* UP.png */; };
 		E1A7517F1CA66B3E00AE2ADC /* ParticleEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1A7517D1CA66B3E00AE2ADC /* ParticleEmitter.cpp */; };
 		E1A751821CA672BD00AE2ADC /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1A751801CA672BD00AE2ADC /* Particle.cpp */; };
+		E1B00C951CACF58F00C811B8 /* TouchParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1B00C931CACF58F00C811B8 /* TouchParticle.cpp */; };
+		E1B00C9C1CAD6B6C00C811B8 /* ScoreMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1B00C9A1CAD6B6C00C811B8 /* ScoreMgr.cpp */; };
+		E1B00C9F1CAE64F700C811B8 /* ColorBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1B00C9D1CAE64F700C811B8 /* ColorBlock.cpp */; };
 		E1EB8AA21C99582F004B412B /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1EB8AA01C99582F004B412B /* Button.cpp */; };
 		E1EB8AA61C997ADC004B412B /* ObjectCreateTestScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1EB8AA41C997ADC004B412B /* ObjectCreateTestScene.cpp */; };
 		ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7B1B68A1F400C3958E /* libiconv.dylib */; };
@@ -179,6 +183,8 @@
 		E118C4B31C9C889E007578EF /* MenuScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MenuScene.hpp; path = Scene/MenuScene.hpp; sourceTree = "<group>"; };
 		E118C4B51C9C88B0007578EF /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = Scene/GameScene.cpp; sourceTree = "<group>"; };
 		E118C4B61C9C88B0007578EF /* GameScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GameScene.hpp; path = Scene/GameScene.hpp; sourceTree = "<group>"; };
+		E12470D11CAEBEDC00CBA8D9 /* ColorBlockMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColorBlockMgr.cpp; path = Mgr/ColorBlockMgr.cpp; sourceTree = "<group>"; };
+		E12470D21CAEBEDC00CBA8D9 /* ColorBlockMgr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ColorBlockMgr.hpp; path = Mgr/ColorBlockMgr.hpp; sourceTree = "<group>"; };
 		E16B9CC61C8AAA1600819364 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		E16B9CC71C8AAA1600819364 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E16B9CCC1C8AAA5B00819364 /* SpriteMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SpriteMgr.cpp; path = Mgr/SpriteMgr.cpp; sourceTree = "<group>"; };
@@ -221,6 +227,12 @@
 		E1A751801CA672BD00AE2ADC /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle.cpp; path = Obj/Particle.cpp; sourceTree = "<group>"; };
 		E1A751811CA672BD00AE2ADC /* Particle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Particle.hpp; path = Obj/Particle.hpp; sourceTree = "<group>"; };
 		E1A751841CA6DB2000AE2ADC /* Random.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Random.hpp; sourceTree = "<group>"; };
+		E1B00C931CACF58F00C811B8 /* TouchParticle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TouchParticle.cpp; path = Obj/TouchParticle.cpp; sourceTree = "<group>"; };
+		E1B00C941CACF58F00C811B8 /* TouchParticle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TouchParticle.hpp; path = Obj/TouchParticle.hpp; sourceTree = "<group>"; };
+		E1B00C9A1CAD6B6C00C811B8 /* ScoreMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScoreMgr.cpp; path = Mgr/ScoreMgr.cpp; sourceTree = "<group>"; };
+		E1B00C9B1CAD6B6C00C811B8 /* ScoreMgr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ScoreMgr.hpp; path = Mgr/ScoreMgr.hpp; sourceTree = "<group>"; };
+		E1B00C9D1CAE64F700C811B8 /* ColorBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColorBlock.cpp; path = Obj/ColorBlock.cpp; sourceTree = "<group>"; };
+		E1B00C9E1CAE64F700C811B8 /* ColorBlock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ColorBlock.hpp; path = Obj/ColorBlock.hpp; sourceTree = "<group>"; };
 		E1EB8AA01C99582F004B412B /* Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Button.cpp; path = Obj/Button.cpp; sourceTree = "<group>"; };
 		E1EB8AA11C99582F004B412B /* Button.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Button.hpp; path = Obj/Button.hpp; sourceTree = "<group>"; };
 		E1EB8AA41C997ADC004B412B /* ObjectCreateTestScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ObjectCreateTestScene.cpp; path = Scene/ObjectCreateTestScene.cpp; sourceTree = "<group>"; };
@@ -448,6 +460,10 @@
 				E16B9CCF1C8AAA5B00819364 /* SceneMgr.hpp */,
 				E16B9CD81C8ACFA300819364 /* SpriteKey.hpp */,
 				E16B9CE61C8B241300819364 /* AnchorPoint.hpp */,
+				E1B00C9A1CAD6B6C00C811B8 /* ScoreMgr.cpp */,
+				E1B00C9B1CAD6B6C00C811B8 /* ScoreMgr.hpp */,
+				E12470D11CAEBEDC00CBA8D9 /* ColorBlockMgr.cpp */,
+				E12470D21CAEBEDC00CBA8D9 /* ColorBlockMgr.hpp */,
 			);
 			name = Mgr;
 			sourceTree = "<group>";
@@ -463,6 +479,10 @@
 				E1A7517E1CA66B3E00AE2ADC /* ParticleEmitter.hpp */,
 				E1A751801CA672BD00AE2ADC /* Particle.cpp */,
 				E1A751811CA672BD00AE2ADC /* Particle.hpp */,
+				E1B00C931CACF58F00C811B8 /* TouchParticle.cpp */,
+				E1B00C941CACF58F00C811B8 /* TouchParticle.hpp */,
+				E1B00C9D1CAE64F700C811B8 /* ColorBlock.cpp */,
+				E1B00C9E1CAE64F700C811B8 /* ColorBlock.hpp */,
 			);
 			name = Obj;
 			sourceTree = "<group>";
@@ -644,20 +664,24 @@
 			files = (
 				E16B9CC81C8AAA1600819364 /* AppDelegate.cpp in Sources */,
 				E1A751821CA672BD00AE2ADC /* Particle.cpp in Sources */,
+				E1B00C9C1CAD6B6C00C811B8 /* ScoreMgr.cpp in Sources */,
 				E118C4B41C9C889E007578EF /* MenuScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				E1EB8AA61C997ADC004B412B /* ObjectCreateTestScene.cpp in Sources */,
 				E118C4B71C9C88B0007578EF /* GameScene.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				E1B00C951CACF58F00C811B8 /* TouchParticle.cpp in Sources */,
 				E16B9CD11C8AAA5B00819364 /* SceneMgr.cpp in Sources */,
 				E1A7517F1CA66B3E00AE2ADC /* ParticleEmitter.cpp in Sources */,
 				E16B9CD41C8AAA6B00819364 /* GameObject.cpp in Sources */,
 				E1EB8AA21C99582F004B412B /* Button.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				E12470D31CAEBEDC00CBA8D9 /* ColorBlockMgr.cpp in Sources */,
 				E118C4B11C9C888E007578EF /* TitleScene.cpp in Sources */,
 				E16B9CD71C8AAA7A00819364 /* HelloWorldScene.cpp in Sources */,
 				E16B9CD01C8AAA5B00819364 /* SpriteMgr.cpp in Sources */,
 				E16B9CE51C8B236F00819364 /* Screen.cpp in Sources */,
+				E1B00C9F1CAE64F700C811B8 /* ColorBlock.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
