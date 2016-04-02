@@ -36,13 +36,16 @@ void GameObject::InitInfo(cocos2d::Vec2 pos,cocos2d::Vec2 scale,
 {
     //ステータスを初期化
     pos_ = pos;
-    scale_ = scale;
     ancPos_ = ancPos;
     tag_ = tag;
+    auto mag = Screen::Screen::Get().Maginification().y;//画面サイズずれを調整
+    scale_ = cocos2d::Vec2(scale.x * mag,scale.y * mag);
+    
     sprite_->setScale(scale_.x,scale_.y);
     sprite_->setPosition(pos_);
     sprite_->setAnchorPoint(ancPos_);
     //画像サイズを取得,当たり判定用にサイズを設定。
+    
     size_ = sprite->getContentSize();
-    size_ = Vec2(size_.x * scale.x , size_.y * scale.y);
+    size_ = Vec2(size_.x * scale_.x , size_.y * scale_.y);
 }

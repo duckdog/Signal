@@ -34,8 +34,9 @@ public:
 	~GameObject();
     
     
-    cocos2d::Vec2 GetPos(){return pos_;}
-    cocos2d::Sprite* GetSprite(){return sprite_;}
+    cocos2d::Vec2 GetPos(){return this->pos_;}
+    cocos2d::Vec2 GetSize(){return size_;}
+    cocos2d::Sprite* GetSprite(){return this->sprite_;}
     void SetSprite();
 
     //タッチ処理用
