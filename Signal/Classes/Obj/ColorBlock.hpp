@@ -14,6 +14,7 @@ class ColorBlock : public GameObject,create_func<ColorBlock>
     
 public:
     
+    //ブロックのカラータイプ
     enum Type
     {
         None   = -1,
@@ -36,6 +37,8 @@ public:
     
     void Update(float delta);
     
+    cocos2d::Sprite* GetMask(){return colorMask_;}
+    void BreakBlock();
     //タッチ処理用
     virtual bool onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event);
     virtual void onTouchMoved(cocos2d::Touch* touch, cocos2d::Event* event){};
@@ -43,10 +46,20 @@ public:
     
 private:
     
+    //タイプにあわせてマスクの色を変える
+    void SetColor(int typeNumber,cocos2d::Sprite* sprite);
+    
+    //追加情報
     Type type_;
+    const char* colorMaskPath_ = "buttonWhiteMask.png";
+    cocos2d::Sprite* colorMask_;
+    
+    
+    //タッチして壊れてから再表示までの時間
     float reLifeTimer_;
     const float reMakeTime_ = 0.4f;
     
+    //壊れる時のぱーてぃくるエフェクトの情報
     const cocos2d::Vec2 particleScale_ = Vec2(0.1f,0.1f);
     const float particletLifeTime_ = 0.45f;
     const float particletSpeed_ = 200;
