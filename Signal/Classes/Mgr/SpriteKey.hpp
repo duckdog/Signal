@@ -19,6 +19,7 @@ namespace Resource {
         NextSceneButtonMenu,
         ParticleSmog,
         Block,
+        BlockMask,
         Last,
     };
     

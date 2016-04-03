@@ -90,8 +90,10 @@
 		E1B00C951CACF58F00C811B8 /* TouchParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1B00C931CACF58F00C811B8 /* TouchParticle.cpp */; };
 		E1B00C9C1CAD6B6C00C811B8 /* ScoreMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1B00C9A1CAD6B6C00C811B8 /* ScoreMgr.cpp */; };
 		E1B00C9F1CAE64F700C811B8 /* ColorBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1B00C9D1CAE64F700C811B8 /* ColorBlock.cpp */; };
+		E1D1D2CB1CB0E4F2006AC5FF /* ScoreNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1D1D2C91CB0E4F2006AC5FF /* ScoreNumbers.cpp */; };
 		E1EB8AA21C99582F004B412B /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1EB8AA01C99582F004B412B /* Button.cpp */; };
 		E1EB8AA61C997ADC004B412B /* ObjectCreateTestScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1EB8AA41C997ADC004B412B /* ObjectCreateTestScene.cpp */; };
+		E1F852461CB0BBC0006DC875 /* buttonWhiteMask.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F852451CB0BBC0006DC875 /* buttonWhiteMask.png */; };
 		ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7B1B68A1F400C3958E /* libiconv.dylib */; };
 		ED545A7E1B68A1FA00C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7D1B68A1FA00C3958E /* libiconv.dylib */; };
 /* End PBXBuildFile section */
@@ -233,10 +235,13 @@
 		E1B00C9B1CAD6B6C00C811B8 /* ScoreMgr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ScoreMgr.hpp; path = Mgr/ScoreMgr.hpp; sourceTree = "<group>"; };
 		E1B00C9D1CAE64F700C811B8 /* ColorBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColorBlock.cpp; path = Obj/ColorBlock.cpp; sourceTree = "<group>"; };
 		E1B00C9E1CAE64F700C811B8 /* ColorBlock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ColorBlock.hpp; path = Obj/ColorBlock.hpp; sourceTree = "<group>"; };
+		E1D1D2C91CB0E4F2006AC5FF /* ScoreNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScoreNumbers.cpp; path = Obj/ScoreNumbers.cpp; sourceTree = "<group>"; };
+		E1D1D2CA1CB0E4F2006AC5FF /* ScoreNumbers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ScoreNumbers.hpp; path = Obj/ScoreNumbers.hpp; sourceTree = "<group>"; };
 		E1EB8AA01C99582F004B412B /* Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Button.cpp; path = Obj/Button.cpp; sourceTree = "<group>"; };
 		E1EB8AA11C99582F004B412B /* Button.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Button.hpp; path = Obj/Button.hpp; sourceTree = "<group>"; };
 		E1EB8AA41C997ADC004B412B /* ObjectCreateTestScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ObjectCreateTestScene.cpp; path = Scene/ObjectCreateTestScene.cpp; sourceTree = "<group>"; };
 		E1EB8AA51C997ADC004B412B /* ObjectCreateTestScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ObjectCreateTestScene.hpp; path = Scene/ObjectCreateTestScene.hpp; sourceTree = "<group>"; };
+		E1F852451CB0BBC0006DC875 /* buttonWhiteMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonWhiteMask.png; sourceTree = "<group>"; };
 		ED545A7B1B68A1F400C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		ED545A7D1B68A1FA00C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -360,6 +365,7 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E1F852451CB0BBC0006DC875 /* buttonWhiteMask.png */,
 				E1A727FF1C9D2D6C00670C9E /* comboPlate.png */,
 				E1A728011C9D2D6C00670C9E /* Item */,
 				E1A728021C9D2D6C00670C9E /* PauseButton.png */,
@@ -472,6 +478,8 @@
 			isa = PBXGroup;
 			children = (
 				E16B9CD21C8AAA6B00819364 /* GameObject.cpp */,
+				E1D1D2C91CB0E4F2006AC5FF /* ScoreNumbers.cpp */,
+				E1D1D2CA1CB0E4F2006AC5FF /* ScoreNumbers.hpp */,
 				E16B9CD31C8AAA6B00819364 /* GameObject.hpp */,
 				E1EB8AA01C99582F004B412B /* Button.cpp */,
 				E1EB8AA11C99582F004B412B /* Button.hpp */,
@@ -615,6 +623,7 @@
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
+				E1F852461CB0BBC0006DC875 /* buttonWhiteMask.png in Resources */,
 				E1A7280D1C9D2D6C00670C9E /* comboPlate.png in Resources */,
 				E1A728181C9D2D6C00670C9E /* titleTouchLogo.png in Resources */,
 				E16B9CEF1C9462EC00819364 /* button.png in Resources */,
@@ -681,6 +690,7 @@
 				E16B9CD71C8AAA7A00819364 /* HelloWorldScene.cpp in Sources */,
 				E16B9CD01C8AAA5B00819364 /* SpriteMgr.cpp in Sources */,
 				E16B9CE51C8B236F00819364 /* Screen.cpp in Sources */,
+				E1D1D2CB1CB0E4F2006AC5FF /* ScoreNumbers.cpp in Sources */,
 				E1B00C9F1CAE64F700C811B8 /* ColorBlock.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

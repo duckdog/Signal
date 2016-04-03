@@ -99,7 +99,7 @@ void ScoreMgr::UpdateScore(float delta)
         //少しずつ加算,だんだん加速
         showScore_ += defaultScoreRate_ * (addScoreSkipTimer_ * addScoreSkipTimer_);
         
-        //実際のスコアより多くなってしまっていたら、もとに戻す
+        //実際のスコアより多くなってしまっていたら、もとに戻す.
         if(showScore_ > currentScore_) showScore_ = currentScore_;
        
         
