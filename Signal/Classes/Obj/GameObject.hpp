@@ -51,7 +51,7 @@ protected:
                           ObjectTag tag);
     
     void UpdatePosScale(cocos2d::Sprite*);
-   
+
     
 	cocos2d::Vec2 pos_;
     cocos2d::Vec2 size_;

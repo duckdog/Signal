@@ -67,7 +67,7 @@ static std::vector<cocos2d::Vec2> GetFanDirecs(cocos2d::Vec2 baseDirec,int angle
 {
     
     std::vector<cocos2d::Vec2> directions;
-    static double toRadian = (3.14/180);
+    const double toRadian = (3.14/180);
     auto divisionAngle = angle / divisionNumber;
     
     for(int i = 0; i < divisionNumber; i++){

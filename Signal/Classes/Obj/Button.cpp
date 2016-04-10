@@ -62,7 +62,6 @@ bool Button::onTouchBegan(Touch* touch, Event* event) {
     isTouch_ = false;
     
     
-    
     return true;
 }
 void Button::onTouchMoved(Touch* touch, Event* event) {}
