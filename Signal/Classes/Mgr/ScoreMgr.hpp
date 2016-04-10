@@ -21,9 +21,9 @@ public:
     bool CheckHighScore();
     
     //取得
-    int GetShowScore(){return showScore_;}
-    int GetcurrentScore(){return currentScore_;}
-    int GetHighScore(){return highScore_;}
+    inline int GetShowScore() const{return showScore_;}
+    inline int GetcurrentScore() const{return currentScore_;}
+    inline int GetHighScore()const{return highScore_;}
     
     
     //加算
@@ -38,7 +38,6 @@ private:
     ScoreMgr();
     
    
-    
     //ハイスコア
     int highScore_;
     int highCombo_;

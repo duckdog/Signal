@@ -7,10 +7,11 @@
 //
 
 #include "TitleScene.hpp"
-#include "../Obj/TouchParticle.hpp"
-#include "../Mgr/SpriteMgr.hpp"
 #include "../Screen.hpp"
+#include "../Obj/TouchParticle.hpp"
 #include "../Obj/Button.hpp"
+#include "../Obj/ScoreNumbers.hpp"
+#include "../Mgr/SpriteMgr.hpp"
 #include "../Mgr/ScoreMgr.hpp"
 #include "../Mgr/ColorBlockMgr.hpp"
 Scene* TitleScene::createScene()
@@ -47,17 +48,15 @@ bool TitleScene::init()
                                      AncPoint::AnchorCenter,"StartButton.png");
     testButton->SetTouchEndedFunc([](){ SceneMgr::ReplaceScene(SceneType::Menu);});
     
-    
+    auto testNumber = ScoreNumbers::Create(Screen::Screen::Get().upCenter,Vec2(0.2f,0.2f));
     
     
     //テスト
     ScoreMgr::Get().ScoreInit();
     
-    
-    
-    
     //シーンに追加
     objectList_.push_back(testButton);
+    objectList_.push_back(testNumber);
     objectList_.push_back(ColorBlockMgr::Create());
     
     for(auto obj : objectList_){this->addChild(obj);}
